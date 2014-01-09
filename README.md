@@ -1,5 +1,7 @@
 # OAuth2orize
 
+alank64 - Required a 303 redirect instead of 302 in regards to token grants (implicit) where a 302 causes the browser to change from https: to http: which breaks the security
+
 [![Build](https://travis-ci.org/jaredhanson/oauth2orize.png)](http://travis-ci.org/jaredhanson/oauth2orize)
 [![Coverage](https://coveralls.io/repos/jaredhanson/oauth2orize/badge.png)](https://coveralls.io/r/jaredhanson/oauth2orize)
 [![Dependencies](https://david-dm.org/jaredhanson/oauth2orize.png)](http://david-dm.org/jaredhanson/oauth2orize)
